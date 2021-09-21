@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="plugin-close.cpp" />
+    <ClCompile Include="plugin-create.cpp" />
+    <ClCompile Include="plugin-init.cpp" />
+    <ClCompile Include="plugin-read.cpp" />
+    <ClCompile Include="plugin-write.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="plugin-common.cpp" />
+    <ClCompile Include="..\..\mpspluginshareclasses\USFUNC.cpp">
+      <Filter>mpspluginshareclasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mpspluginshareclasses\uslist.cpp">
+      <Filter>mpspluginshareclasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mpspluginshareclasses\usstr.cpp">
+      <Filter>mpspluginshareclasses</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\mpspluginshareclasses\USSTRL.CPP">
+      <Filter>mpspluginshareclasses</Filter>
+    </ClCompile>
+    <ClCompile Include="plugin-slaveprocessing.cpp" />
+    <ClCompile Include="..\..\mpspluginshareclasses\plugin-main.cpp" />
+    <ClCompile Include="PgData.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="mpspluginshareclasses">
+      <UniqueIdentifier>{6d453e53-e791-4568-82c2-3909b2267379}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PgData.h" />
+  </ItemGroup>
+</Project>
