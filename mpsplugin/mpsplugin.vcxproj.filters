@@ -8,21 +8,23 @@
     <ClCompile Include="plugin-write.cpp" />
     <ClCompile Include="stdafx.cpp" />
     <ClCompile Include="plugin-common.cpp" />
-    <ClCompile Include="..\..\mpspluginshareclasses\USFUNC.cpp">
-      <Filter>mpspluginshareclasses</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\mpspluginshareclasses\uslist.cpp">
-      <Filter>mpspluginshareclasses</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\mpspluginshareclasses\usstr.cpp">
-      <Filter>mpspluginshareclasses</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\mpspluginshareclasses\USSTRL.CPP">
-      <Filter>mpspluginshareclasses</Filter>
-    </ClCompile>
     <ClCompile Include="plugin-slaveprocessing.cpp" />
-    <ClCompile Include="..\..\mpspluginshareclasses\plugin-main.cpp" />
     <ClCompile Include="PgData.cpp" />
+    <ClCompile Include="$(MpsApiRoot)\USFUNC.cpp">
+      <Filter>mpspluginshareclasses</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MpsApiRoot)\uslist.cpp">
+      <Filter>mpspluginshareclasses</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MpsApiRoot)\usstr.cpp">
+      <Filter>mpspluginshareclasses</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MpsApiRoot)\USSTRL.CPP">
+      <Filter>mpspluginshareclasses</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MpsApiRoot)\plugin-main.cpp">
+      <Filter>mpspluginshareclasses</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -34,5 +36,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="PgData.h" />
+    <ClInclude Include="$(MpsApiRoot)\mpsapi.h">
+      <Filter>mpspluginshareclasses</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MpsApiRoot)\usfunc.h">
+      <Filter>mpspluginshareclasses</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
